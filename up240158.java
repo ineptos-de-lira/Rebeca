@@ -1,4 +1,4 @@
-class Carro {
+class carro {
 
     //Variables
     String color;
@@ -21,7 +21,7 @@ class Carro {
 
 }
 
-class E1Clases{
+class E1clases{
     public static void main (String[] args){
         System.out.println("p1");
 
