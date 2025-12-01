@@ -21,8 +21,8 @@ class Carro {
 
 }
 
-class E1Clases{
-    public static void main (String[] args){
+class Clases{
+   public static void main (String[] args){
         System.out.println("p1");
 
          int gatito;
