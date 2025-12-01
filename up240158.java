@@ -7,16 +7,16 @@ class Carro {
     
     //Funciones
     
-    double frenar(double presionPedal){
-        System.out.println("Frenando");
+  double frenar(double presionPedal){
+      System.out.println("Frenando");
         return presionPedal*-2;
-    }
+  }
 
     double acelerar(double presionPedal){
         System.out.println("Acelerando");
         return presionPedal;
         
-    }
+  }
 
 
 }
@@ -35,13 +35,13 @@ class E1Clases{
          tsuru.marca = "Nissan";
          tsuru.color = "Arena";
 
-         double deltaVelocidad = tsuru.acelerar( 6.5);
+         double deltaVelocidad = tsuru.acelerar ( 6.5);
          System.out.println(deltaVelocidad);
          
-        double deltaVelocidad2 = tsuru.frenar( 7.9);
+        double deltaVelocidad2 = tsuru.frenar ( 7.9);
          System.out.println(deltaVelocidad2);
          
 
-    }
+  }
     
 }
